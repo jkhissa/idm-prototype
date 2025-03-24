@@ -16,5 +16,10 @@
     "node": "^20.11.1",
     "notifications-node-client": "8.1.0",
     "radio-button-redirect": "^1.2.0"
-  }
+  },
+  "version": "1.0.0",
+  "description": "//",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
