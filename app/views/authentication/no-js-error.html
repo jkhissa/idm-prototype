@@ -2,7 +2,7 @@
 {% set showBackLink = false %}
 
 
-{% set pageHeading = "There was a problem continuing your authentication journey" %}
+{% set pageHeading = "There is a problem" %}
 {% set pageSection = "" %}
 {% block pageTitle %}{{ macroPageTitle.pageTitle(pageHeading) }}{% endblock %}
 
@@ -14,12 +14,7 @@
 
         {{ macroPageHeader.pageHeader(pageHeading,pageSection) }}
 
-            <p>This could be due to:</p>
-            <ul class="govuk-list govuk-list--bullet">
-                <li>Technical issues with the service</li>
-                <li>Javascript disabled in your browser</li>
-            </ul>
-            <p class="govuk-body govuk-!-margin-bottom-7">You can continue your journey by enabling Javascript and refreshing the page</p>            
+        <p>To complete your registration, you must enable JavaScript for security reasons. Check your browser settings, enable JavaScript and refresh the page.</p>         
             <form action="get-code" method="post"></form>
         
             <div class="govuk-button-group">
