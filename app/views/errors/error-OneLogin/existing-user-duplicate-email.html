@@ -16,13 +16,17 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
     <h1 class="govuk-heading-xl">{{title}}</h1>
-    <p class="govuk-body">There is an existing Defra account associated with this email address.</p>
+    <p class="govuk-body">You've changed your email address to one already associated with another Defra account.</p>
 
-    <p class="govuk-body">Please sign in with the [Identity Provider] email address originally associated with this Defra account.</p>
+    
+    <p class="govuk-body">Please return to [Identity Provider] and change the email address to one that is not in use with a Defra account.
+    </p> 
+      
+     <p class="govuk-body">Alternatively, you can return to [Identity Provider] and sign in using the details originally associated with that account.</p>
 
-    <p class="govuk-body">If you have issues finding your email address, you can <a href="/help#contacting-defra-services" target="_blank">contact the service</a> (opens in a new tab) for help on how to complete your task.</p>
-
-    {{ govukButton({
+    <p class="govuk-body">If you have forgotten your sign in details, you can <a href="/help#contacting-defra-services" target="_blank">contact the service (opens in a new tab)</a> for help on how to complete your task.</p>
+    
+   {{ govukButton({
       text: "Sign out",
       href: "#"
     }) }}
